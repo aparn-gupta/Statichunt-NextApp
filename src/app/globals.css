@@ -1,0 +1,91 @@
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* 
+.nextel {
+    display: none
+}
+
+.prevel {
+    display: none
+}
+ */
+
+
+
+/* 
+
+.menubar-options {
+    
+    background-color: hsla(0, 0%, 0%, 0.878);
+    
+    color: #ffffff24;
+    
+
+}
+
+
+
+.swiper-container {
+    position: relative;
+    padding: 0 0 6rem;
+    
+  }
+  
+  .swiper-pagination {
+    position: absolute;
+    bottom: 1rem;
+    
+   
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    color: black;
+  }
+
+
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: #6c757d;
+    opacity: 1;
+    border-radius: 0; 
+    margin: 0 4px;
+  }
+
+ 
+  .swiper-pagination-bullet-active {
+    background: #000; 
+  }
+
+  .swiper-button-next {
+    display: none;
+
+  }
+  
+  .swiper-button-prev {
+    display: none;
+
+  }
+  
+ */
+
+
+ body {
+  font-family: 'Oswald';
+ }
+
+ .slick-dots li button {
+  background-color: red; /* Change dot color */
+}
+
+.slick-dots li.slick-active button {
+  background-color: green; /* Change active dot color */
+}
