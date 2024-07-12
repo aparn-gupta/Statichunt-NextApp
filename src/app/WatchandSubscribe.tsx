@@ -58,15 +58,17 @@ const imgStyle = workVideoShowing ? {display: "none"} : {display: "block"}
 
 
 
-  <div className="lg:px-32 lg:py-32 lg:flex lg:justify-between  px-12 py-16 lg:mt-32 md:mt-28 md:px-28">
-    <div >
+  <div className="lg:px-32 lg:py-32 lg:flex lg:justify-between px-12 py-12 md:py-8 lg:mt-32 md:mt-16 md:px-28">
+   <div>
+  
       <p className="text-sm text-grey "> DONT MISS OUT OUR LATEST UPDATES</p>     
       <p className="lg:text-5xl text-4xl md:h-16">SUBSCRIBE US</p>  
-    </div> 
+  
+   </div>
 
    
-    <div className="lg:flex z-40 md:block">
-      <input type="text" className="lg:w-96  w-80 lg:p-6 p-7 my-8 lg:my-0 text-grey bg-lightgrey border-0 " placeholder="Drop your email here" />
+    <div className="lg:flex z-40 md:block ">
+      <div  className=" flex justify-center md:block lg:block"> <input type="text" className="lg:w-96  w-80 lg:p-9 p-7   my-8 lg:my-0 text-grey bg-lightgrey border-0 " placeholder="Drop your email here" /></div>
       <button className = "bg-black w-36 text-white h-10  text-sm lg:text-lg lg:w-52 lg:h-24  md:h-20 md:w-44 uppercase  "   > Subscribe </button>
     </div>
 

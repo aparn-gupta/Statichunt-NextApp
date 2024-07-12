@@ -36,9 +36,7 @@ const Home = () => {
   <Portfolio />
   <Achievements />
   <TrustedbyClient />
-  <Team />
-  
-  
+  <Team />  
   <Clients />
   <Greatthings />
   <NewsArticles />

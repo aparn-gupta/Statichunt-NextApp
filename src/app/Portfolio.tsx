@@ -5,7 +5,7 @@ const Portfolio = () => {
     <div className = 'z-40'>
 
 
-<div className="flex justify-center  lg:px-40 px-10 py-16 lg:pt-0 md:py-12 md:px-28">
+<div className="flex justify-center  lg:px-40 px-10 py-12 lg:pt-0 md:py-12 md:px-28">
    <div>
     <p className="uppercase text-sm my-2 text-center text-grey">OUR PORTFOLIO</p>
     <p className="lg:text-5xl text-4xl uppercase my-2  text-center">WORK SHOWCASE</p>

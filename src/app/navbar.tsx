@@ -47,7 +47,7 @@ const Firstscreen = () => {
     <div>
        <div style = {menubarstyle}  className="h-screen w-screen fixed  top-0 left-0 bg-transblack z-50 text-white p-12">  
       
-    <div className="flex justify-between lg:ml-24">  <img className="w-28 h-12" src="https://www.prosaicpress.com/jkentauthor/wp-content/uploads/2020/04/random.png" /> <CancelIcon className = "text-white" onClick= {handleClick} /> </div>
+    <div className="flex justify-between lg:ml-24">  <img className="w-28 h-12" src="https://www.prosaicpress.com/jkentauthor/wp-content/uploads/2020/04/random.png" /> <CancelIcon className = "text-white"  sx= {{width: "3.5rem", height: "3.5rem"}} onClick= {handleClick} /> </div>
     <ul className="flex justify-center p-8 uppercase text-lg ">
    <div>
     <li className="mb-3"> <Link href=""> Home</Link> </li>
@@ -61,7 +61,7 @@ const Firstscreen = () => {
 </ul>
 
 
-<div className="lg:flex lg:justify-between  text-grey mt-4 md:mt-64   lg:mt-12 lg:ml-24">
+<div className="lg:flex lg:justify-between  text-grey mt-4 md:mt-64   lg:mt-32 lg:ml-24">
   <div className="text-center lg:text-left "> 
     <p className="flex justify-center lg:text-left "> Address: 66 Broklyn Street, New Mexico,
       United States of America</p>
@@ -104,14 +104,14 @@ const Firstscreen = () => {
     
 
     
-    <div  className=" py-4 px-4  flex justify-between  absolute top-0 left-0 lg:py-8 lg:px-6 border-b-2 border-grey z-40 w-full "> 
+    <div  className=" py-4 px-4  flex justify-between  absolute top-0 left-0 lg:pb-6 lg:pt-10 lg:px-10 border-b-2 border-grey z-40 w-full "> 
 
       <div>
           <img className="w-28 h-12" src="https://www.prosaicpress.com/jkentauthor/wp-content/uploads/2020/04/random.png" />
       </div>
   
   
-      <ul className=" hidden lg:flex lg:uppercase lg:text-white lg:text-xl lg:mx-60 ">
+      <ul className=" hidden lg:flex lg:uppercase lg:text-white lg:text-lg lg:mx-60 ">
       <li className="px-5"> <Link href=""> Home</Link> </li>
     <li className="px-5"> <Link href="/about"> About</Link> </li>
     <li className="px-5"> <Link href="/services"> Services</Link> </li>
@@ -120,9 +120,9 @@ const Firstscreen = () => {
     <li className="px-5"> <Link href="/contact"> Contact</Link> </li>    
       </ul>
   
-      <div   className="text-white ml-52 lg:ml-0 ">
-          <SearchIcon  sx={{width: '3rem', height: '3rem'}} className='text-white' />
-          <MenuIcon   sx={{width: '3rem', height: '3rem'}} className='text-white' onClick= {handleClick} />
+      <div   className="text-white lg:ml-0 ">
+          <SearchIcon  sx={{width: '2.5rem', height: '2.5rem', marginRight: "0.5rem"}} className='text-white' />
+          <MenuIcon   sx={{width: '2.5rem', height: '2.5rem'}} className='text-white' onClick= {handleClick} />
       </div>
 
     </div>
@@ -132,7 +132,7 @@ const Firstscreen = () => {
 
   
   
-    <div className = "absolute flex justify-center top-0 left-0 lg:py-52 lg:px-64 py-80 px-16 text-white uppercase md:px-60">
+    <div className = "absolute flex justify-center top-0 left-0 lg:py-52 lg:px-80 py-80 md:py-96 px-12 text-white uppercase md:px-56">
       <div className=''>
         <p className="lg:text-2xl  text-center md:text-xl"> Welcome to Random agency </p>
       <p className="lg:text-9xl text-5xl font-bold text-center md:my-3"> Smart Web design agency</p>  
