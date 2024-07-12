@@ -10,7 +10,7 @@ const TrustedbyClient = () => {
 <div className="flex justify-center md:px-36 lg:justify-start">   <img src= "https://thumbs.dreamstime.com/b/young-people-working-office-group-modern-139839305.jpg" className=" lg:w-155 lg:h-130 w-96 h-auto absolute -top-28  z-30 grayscale md:w-138 md:h-130 "/></div>
  
 
-  <div className="lg:w-1/2 z-50 bg-white lg:p-12 px-12 pb-16 pt-52 md:mt-64 md:px-28 lg:absolute lg:bottom-8 lg:left-1/2">
+  <div className="lg:w-1/2 z-50 bg-white lg:p-20 lg:pr-36 px-12 pb-16 pt-52 md:mt-64 md:px-28 lg:absolute lg:bottom-0 lg:left-1/2">
    
     <p className="lg:text-5xl  text-4xl  my-2 flex justify-center text-center lg:text-left lg:block ">WE ARE TRUSTED BY MORE THAN 600 CLIENTS </p>
 
