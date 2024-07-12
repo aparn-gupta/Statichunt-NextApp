@@ -10,7 +10,7 @@ const Greatthings = () => {
 
 <div className="brightness-50"> <img src="https://c.stocksy.com/a/MbO300/z9/809556.jpg"  className="absolute top-0 right-0 w-screen h-screen grayscale"/>   </div>   
 
-<div className="absolute top-0 left-0 p-16 lg:py-24 lg:px-44 md:px-40 md:py-48 "> 
+<div className="absolute top-0 left-0 p-16 lg:py-24 lg:px-80 md:px-40 md:py-48 "> 
 
   <div>
     <div className="flex justify-center "> <img src="https://www.nicepng.com/png/full/140-1400766_leader-comments-leader-icon-png-file.png" className="w-16 h-16 bg-myred  mt-20" /> </div>

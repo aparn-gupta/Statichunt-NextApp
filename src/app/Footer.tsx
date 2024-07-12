@@ -15,10 +15,10 @@ const Footer = () => {
 
 
 
-  <div className="lg:flex lg:justify-between bg-black text-white lg:p-28 px-6 py-32 md:flex  md:justify-between md:px-20 ">
+  <div className="lg:flex lg:justify-between bg-black text-white lg:p-28 lg:px-44 lg:pr-96 px-6 py-32 md:flex  md:justify-between md:px-20 ">
     <div className="md:mr-16">
       <img src= "https://www.prosaicpress.com/jkentauthor/wp-content/uploads/2020/04/random.png" className="w-28 h-12 mb-8" />
-      <p className="w-80 text-grey md:w-52 "> Welcome to our web design agency. Lorem ipsum is simply free text dolor sit amet consectetur adipisicing elit. 
+      <p className="w-80 text-grey md:w-52 lg:w-96 "> Welcome to our web design agency. Lorem ipsum is simply free text dolor sit amet consectetur adipisicing elit. 
         Tempore corrupti temporibus fuga earum asperiores, alias excepturi sit mpedit fugit laudantium.</p>
     </div>
 
