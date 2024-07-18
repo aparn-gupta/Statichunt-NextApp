@@ -99,19 +99,19 @@ const Firstscreen = () => {
 
 
 
-    <img src="https://www.employmentlawhandbook.com/wp-content/uploads/2021/06/two-women-at-work-in-a-workplace.jpg" style = {backgroundImgOne} className="w-screen h-screen grayscale brightness-50 z-40"/> 
-    <img src= "https://assets.entrepreneur.com/content/3x2/2000/20160603173131-businesswoman-working-desk-workplace.jpeg"  style = {backgroundImgTwo} className="w-screen h-screen grayscale brightness-50  z-40 hidden lg:block"/> 
+    <img src="https://www.employmentlawhandbook.com/wp-content/uploads/2021/06/two-women-at-work-in-a-workplace.jpg" style = {backgroundImgOne} className="w-screen h-screen grayscale brightness-50 z-40 object-cover"/> 
+    <img src= "https://assets.entrepreneur.com/content/3x2/2000/20160603173131-businesswoman-working-desk-workplace.jpeg"  style = {backgroundImgTwo} className="w-screen h-screen grayscale brightness-50  z-40 hidden lg:block object-cover"/> 
     
 
     
-    <div  className=" py-4 px-4  flex justify-between  absolute top-0 left-0 lg:pb-6 lg:pt-10 lg:px-10 border-b-2 border-grey z-40 w-full "> 
+    <div  className=" py-4 px-5  flex justify-between  absolute top-0 left-0 lg:pb-6 lg:pt-10 lg:px-10 border-b-2 border-grey z-40 w-full "> 
 
       <div>
           <img className="w-28 h-12" src="https://www.prosaicpress.com/jkentauthor/wp-content/uploads/2020/04/random.png" />
       </div>
   
   
-      <ul className=" hidden lg:flex lg:uppercase lg:text-white lg:text-lg lg:mx-60 ">
+      <ul className=" hidden lg:flex lg:uppercase lg:text-white lg:text-lg  ">
       <li className="px-5"> <Link href=""> Home</Link> </li>
     <li className="px-5"> <Link href="/about"> About</Link> </li>
     <li className="px-5"> <Link href="/services"> Services</Link> </li>
@@ -120,7 +120,7 @@ const Firstscreen = () => {
     <li className="px-5"> <Link href="/contact"> Contact</Link> </li>    
       </ul>
   
-      <div   className="text-white lg:ml-0 ">
+      <div   className="text-white ">
           <SearchIcon  sx={{width: '2.5rem', height: '2.5rem', marginRight: "0.5rem"}} className='text-white' />
           <MenuIcon   sx={{width: '2.5rem', height: '2.5rem'}} className='text-white' onClick= {handleClick} />
       </div>
@@ -132,11 +132,12 @@ const Firstscreen = () => {
 
   
   
-    <div className = "absolute flex justify-center top-0 left-0 lg:py-52 lg:px-80 py-80 md:py-96 px-12 text-white uppercase md:px-56">
+    <div className = "absolute top-0 flex justify-center w-full lg:py-52 py-80 md:py-96 text-white uppercase ">
       <div className=''>
-        <p className="lg:text-2xl  text-center md:text-xl"> Welcome to Random agency </p>
-      <p className="lg:text-9xl text-5xl font-bold text-center md:my-3"> Smart Web design agency</p>  
-      <div className=" flex justify-center mt-6 lg:mt-12"> <button  className = "bg-black w-36 h-10 text-sm lg:text-lg lg:w-52 lg:h-16 md:w-44 md:h-16 uppercase "> Discover More  </button> </div>
+        <p className="lg:text-2xl text-center md:text-xl"> Welcome to Random agency </p>
+      <p className="lg:text-9xl text-5xl font-bold text-center md:my-3"> Smart Web </p>  
+      <p className="lg:text-9xl text-5xl font-bold text-center md:my-3"> design agency</p>  
+      <div className=" flex justify-center mt-6 lg:mt-12"> <button  className = "bg-black  text-sm lg:text-lg w-52 h-16 uppercase "> Discover More  </button> </div>
       </div>
     </div>
 
