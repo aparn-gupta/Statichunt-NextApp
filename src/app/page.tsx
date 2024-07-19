@@ -21,12 +21,15 @@ import React from 'react';
 import Team from './Team'
 import { useState, useEffect } from 'react'
 
+import { Oswald } from 'next/font/google'
+ 
+const oswald = Oswald({ subsets: ['latin'] })
 
 
 
 const Home = () => {
 
-  let myPage =   <div className='font-oswald '>
+  let myPage =   <div className={oswald.className}>
   <div className='bg-black'>
   <Firstscreen />
   <SecondComponent />

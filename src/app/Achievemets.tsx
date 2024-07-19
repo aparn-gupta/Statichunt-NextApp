@@ -6,7 +6,7 @@ const Achievements = () => {
 
         
 
-  <div className=" flex justify-center lg:pb-40 lg:pt-28 bg-black lg:mt-32 pb-40 pt-28 md:mt-28 w-screen">
+  <div className=" flex justify-center lg:pb-56 lg:pt-28 bg-black lg:mt-32 pb-40 pt-28 md:mt-28 w-screen">
 
 <div className="lg:flex lg:justify-between lg:w-2/3"> 
 

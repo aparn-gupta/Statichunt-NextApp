@@ -64,9 +64,9 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en">
       <head>
-      <style>
+      {/* <style>
 @import url(  https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap );
-</style>
+</style> */}
      
      
       </head>
