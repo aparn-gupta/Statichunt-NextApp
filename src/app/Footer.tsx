@@ -22,23 +22,23 @@ const Footer = () => {
   <div className="lg:flex lg:justify-between bg-black text-white lg:p-28 lg:px-44 lg:pr-96 px-6 py-32 md:flex  md:justify-between md:px-20 ">
     <div className="md:mr-16">
       <img src= "https://www.prosaicpress.com/jkentauthor/wp-content/uploads/2020/04/random.png" className="w-28 h-12 mb-8" />
-      <p className="w-80 text-grey md:w-52 lg:w-96 text-xl leading-relaxed lg:text-lg "> Welcome to our web design agency. Lorem ipsum is simply free text dolor sit amet consectetur adipisicing elit. 
+      <p className="w-80 text-grey md:w-52 lg:w-96 text-xl leading-relaxed lg:text-base "> Welcome to our web design agency. Lorem ipsum is simply free text dolor sit amet consectetur adipisicing elit. 
         Tempore corrupti temporibus fuga earum asperiores, alias excepturi sit mpedit fugit laudantium.</p>
     </div>
 
     <div className="mt-8 lg:mt-0 md:mr-8">
       <p className="uppercase text-xl mb-8 text-white "> Contact  </p>
-      <p  className="text-grey  w-48 md:w-52 text-xl leading-relaxed lg:text-lg">  66 Broklyn Street, New Mexico,
+      <p  className="text-grey  w-48 md:w-52 text-xl leading-relaxed lg:text-base">  66 Broklyn Street, New Mexico,
         United States of America</p>
-      <p className="text-grey  my-4 text-xl leading-relaxed lg:text-lg"> Phone: 88888 88888 </p>
-      <p className="text-grey text-xl leading-relaxed lg:text-lg "> Email: random@random.com</p> 
+      <p className="text-grey  my-4 text-xl leading-relaxed lg:text-base"> Phone: 88888 88888 </p>
+      <p className="text-grey text-xl leading-relaxed lg:text-base "> Email: random@random.com</p> 
     </div>
 
       <div className="mt-8 lg:mt-0">
         <p className="uppercase text-xl mb-8 text-white">Social </p>
-        <div>  <p className="text-grey text-xl leading-relaxed lg:text-lg "> <i className="fa-brands fa-twitter mr-2"></i>  Twitter</p></div>
-        <div>  <p className="text-grey text-xl leading-relaxed lg:text-lg "> <i className="fa-brands fa-facebook mr-2"></i>Facebook</p></div>
-        <div> <p className="text-grey text-xl leading-relaxed lg:text-lg "> <i className="fa-brands fa-instagram mr-2"></i> Instagram</p></div>
+        <div>  <p className="text-grey text-xl leading-relaxed lg:text-base "> <i className="fa-brands fa-twitter mr-2"></i>  Twitter</p></div>
+        <div>  <p className="text-grey text-xl leading-relaxed lg:text-base "> <i className="fa-brands fa-facebook mr-2"></i>Facebook</p></div>
+        <div> <p className="text-grey text-xl leading-relaxed lg:text-base "> <i className="fa-brands fa-instagram mr-2"></i> Instagram</p></div>
       </div>
 
   </div>

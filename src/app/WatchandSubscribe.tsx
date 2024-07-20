@@ -43,14 +43,14 @@ const imgStyle = workVideoShowing ? {display: "none"} : {display: "block"}
   <div className=" relative lg:h-72 h-48 lg:w-screen md:mt-40"  style = {imgStyle}>
    
    
-   <div className="flex justify-center absolute -top-16 left-0 w-screen lg:h-138 h-72 ">   <img src="https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/rZJIMvhmliwmde8a6/videoblocks-group-of-multiethnic-busy-people-working-in-an-office-mixed-race-team-of-young-business-people-working-together_b7fnursum_thumbnail-1080_01.png" className="grayscale w-11/12 lg:w-3/4 absolute md:w-2/3 md:h-72 -top-16 h-52 lg:h-138"/> 
+   <div className="flex justify-center absolute -top-16 left-0 w-screen lg:h-138 h-72 ">   <img src="https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/rZJIMvhmliwmde8a6/videoblocks-group-of-multiethnic-busy-people-working-in-an-office-mixed-race-team-of-young-business-people-working-together_b7fnursum_thumbnail-1080_01.png" className="grayscale w-11/12 lg:w-3/4 absolute md:w-2/3 md:h-72  md:-top-40 lg:-top-16  -top-16 h-52 lg:h-138"/> 
     
     
-    <img src="https://icons.veryicon.com/png/o/miscellaneous/food-time/play-video-1.png" className="absolute  w-16 h-16  lg:w-24 lg:h-24 top-4 md:top-12 bg-myred lg:top-36 " onClick={handleClick} />   
+    <img src="https://icons.veryicon.com/png/o/miscellaneous/food-time/play-video-1.png" className="absolute  w-16 h-16  lg:w-24 lg:h-24 top-4 md:-top-10 bg-myred lg:top-36 " onClick={handleClick} />   
     
     
    
-     <p className="absolute lg:top-72 lg:bottom-12 md:top-32 top-20 lg:text-5xl text-4xl uppercase" > Watch Video</p> 
+     <p className="absolute lg:top-72 lg:bottom-12 md:top-10 top-20 lg:text-5xl text-4xl uppercase" > Watch Video</p> 
   </div>
   </div>
 
@@ -58,7 +58,7 @@ const imgStyle = workVideoShowing ? {display: "none"} : {display: "block"}
 
 
 
-  <div className=" lg:py-24 flex justify-center  py-1 md:py-8 lg:mt-32 md:mt-8 ">
+  <div className=" lg:py-24 flex justify-center  py-1 md:py-8 lg:mt-32 md:mt-0 ">
   <div className="w-4/5 lg:w-3/4 md:w-2/3 lg:flex lg:justify-between">
   <div>
   
