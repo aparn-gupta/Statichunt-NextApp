@@ -70,7 +70,7 @@ const imgStyle = workVideoShowing ? {display: "none"} : {display: "block"}
 
 <div className="lg:flex z-40 md:block  ">
   <div  className=""> <input type="text" className="lg:w-96 md:w-134  w-80 lg:p-9 p-7   my-8 lg:my-0 text-grey bg-lightgrey border-0 " placeholder="Drop your email here" /></div>
-  <button className = "bg-black  text-white text-lg w-52 h-24 uppercase  "   > Subscribe </button>
+  <button className = "bg-black  text-white text-lg w-52 h-24 uppercase border-r-4 border-myred "   > Subscribe </button>
 </div>
   </div>
 

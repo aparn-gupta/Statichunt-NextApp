@@ -20,7 +20,7 @@ const TrustedbyClient = () => {
    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita-tion ullamco. Sed do eiusmod tempor incidi-dunt
     laboris nisi ut aliquip ex ea commodo.</p>     
     
-    <button className="bg-black text-white lg:text-lg w-52 h-16 uppercase"> Learn More</button>     
+    <button className="bg-black text-white lg:text-lg w-52 h-20 uppercase border-r-4 border-myred"> Learn More</button>     
     </div>  
   </div> 
 
