@@ -132,7 +132,7 @@ const Firstscreen = () => {
 
   
   
-    <div className = "absolute top-0 flex justify-center w-full lg:py-72 py-80 md:py-96 text-white uppercase ">
+    <div className = "absolute top-0 flex justify-center w-full lg:py-44 py-80 md:py-96 text-white uppercase ">
       <div className=''>
         <p className="text-2xl text-center tracking-wider"> Welcome to Random agency </p>
       <p className="lg:text-9xl text-5xl font-bold text-center my-5"> Smart Web </p>  
